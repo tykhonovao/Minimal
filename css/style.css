@@ -1,0 +1,326 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.eot');
+    src: url('../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+    url('../fonts/Montserrat-Regular.woff') format('woff'),
+    url('../fonts/Montserrat-Regular.ttf') format('truetype'),
+    url('../fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vollkorn';
+    src: url('../fonts/Vollkorn-Regular.eot');
+    src: url('../fonts/Vollkorn-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Vollkorn-Regular.woff2') format('woff2'),
+    url('../fonts/Vollkorn-Regular.woff') format('woff'),
+    url('../fonts/Vollkorn-Regular.ttf') format('truetype'),
+    url('../fonts/Vollkorn-Regular.svg#Vollkorn-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    color: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-family: inherit;
+}
+
+.container{
+    max-width: 940px;
+    margin: auto;
+}
+
+.d_flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+section{
+    padding: 69px 0;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 43px;
+    margin-top: 10px;
+}
+
+h2:after{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.09);
+    margin: auto;
+    margin-top: 28px;
+}
+
+h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 20px;
+    display: block;
+}
+
+p{
+    font-family: 'Vollkorn';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    color: #212121;
+    margin-bottom: 6px;
+}
+
+article{
+    max-width: 300px;
+}
+
+
+
+
+/*header*/
+
+
+
+
+header .container{
+    padding: 18px 0;
+}
+
+header div nav ul{
+    list-style: none;
+    display: flex;
+    padding: 23px 0 27px 0;
+}
+
+header div nav ul li{
+    margin-left: 34px;
+}
+
+header div nav ul li a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #404040;
+}
+
+
+
+
+/*brands*/
+
+
+
+
+.p_1{
+    font-size: 15px;
+    color: #333333;
+    margin-bottom: 5px;
+}
+
+.brands_article_img_bg{
+    background-color: #F5F5F5;
+    margin-bottom: 38px;
+    padding: 50px 0;
+}
+
+
+
+
+/*quote*/
+
+
+
+
+.quote_section_color{
+    background-color: #F5F5F5;
+}
+
+.quote_container{
+    margin: 0 23px;
+}
+
+.quote_img{
+    margin-bottom: 67px;
+}
+
+.quote_article{
+    max-width: 447px;
+}
+
+q{
+    font-family: 'Vollkorn';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 33px;
+    text-align: center;
+    color: #333333;
+    margin: 2px 54px 24px;
+    display: block;
+}
+
+.q_1{
+    margin: 2px 69px 24px;
+}
+
+.quote_article_img{
+    margin-bottom: 10px;
+}
+
+.h3_1{
+    font-size: 14px;
+    color: #ABABAB;
+    margin-bottom: 29px;
+}
+
+
+
+
+/*contacts*/
+
+
+
+
+.contacts_img_location{
+    margin: 13px 128px 26px;
+}
+
+.contacts_img_email{
+    margin: 20px 115px 34px;
+}
+
+.contacts_img_social{
+    margin: 20px 116px 28px;
+}
+
+.contacts_section{
+    background-image: url("../images/contacts_bg.png");
+    background-size: cover;
+}
+
+section div article ul{
+    list-style: none;
+}
+
+section div article ul li{
+    margin-bottom: 11px;
+    display: flex;
+}
+
+i{
+    margin-left: 109px;
+}
+
+.a{
+    font-family: 'Vollkorn';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 17px;
+    color: #212121;
+    text-decoration: none;
+    margin-left: 9px;
+}
+
+
+
+
+/*footer*/
+
+
+
+
+footer{
+    background-color: black;
+}
+
+footer .container{
+    max-width: 564px;
+    text-align: center;
+    padding: 69px 0;
+}
+
+label{
+    display: none
+}
+
+input, textarea, button{
+    font-family: 'Vollkorn';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+footer form input{
+    width: 100%;
+    background-color:rgba(255, 255, 255, 0.18);
+    padding: 18px 0 17px 31px;
+}
+
+input[type='email'], textarea{
+    background-color:rgba(255, 255, 255, 0.2);
+}
+
+footer form textarea{
+    width: 100%;
+    resize: none;
+    height: 127px;
+    padding: 18px 0 0 31px;
+    margin-bottom: 22px
+}
+
+footer form button{
+    width: 210px;
+    padding: 15px 0 16px;
+    border: solid 1px #7EC4BD;
+    border-bottom: solid 2px #7EC4BD;
+    background-color: transparent;
+    color: #8BCAC3;
+    margin-bottom: 37px
+}
+
+footer img{
+    margin-bottom: 14px;
+}
+
+footer p{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.4);
+    margin-bottom: 6px;
+    font-style: normal;
+}
