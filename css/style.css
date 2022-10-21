@@ -83,7 +83,7 @@ h3{
     line-height: 20px;
     text-align: center;
     text-transform: uppercase;
-    color: #333363;
+    color: #333333;
     margin-bottom: 20px;
     display: block;
 }
@@ -112,7 +112,7 @@ article{
 
 
 header .container{
-    padding: 20px 0;
+    padding: 18px 0;
 }
 
 header div nav ul{
@@ -165,7 +165,7 @@ header div nav ul li a{
 
 
 .quote_section_color{
-    background-color: #F6A4F5;
+    background-color: #F5F5F5;
 }
 
 .quote_container{
@@ -264,7 +264,7 @@ i{
 
 
 footer{
-    background-color: darkblue;
+    background-color: black;
 }
 
 footer .container{
@@ -323,8 +323,4 @@ footer p{
     color: rgba(255, 255, 255, 0.4);
     margin-bottom: 6px;
     font-style: normal;
-}
-
-.nj{
-    margin: 20px 34px;
 }
